@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int main(int argc, char const *argv[]) {
-  float dias;
-  scanf("%f",&dias );
-  printf("%f %0.2f %0.2f\n",dias,dias/30,dias/365 );
+  float a,b,c;
+  scanf("%f %f %f",&a,&b,&c );
+  printf("%f\n",(a*2+b*3+c*5)/(2+3+5) );
   return 0;
 }
