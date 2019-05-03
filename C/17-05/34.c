@@ -4,7 +4,7 @@
 
 int main(int argc, char const *argv[]) {
   char op;
-  float altura,total;
+  float altura;
   scanf("%c %f",&op,&altura );
   op = toupper(op);
   if (!(op=='M' || op=='F')) {
