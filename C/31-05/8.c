@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define MAX 15
+#define MAX 2
 
 int verificar_primo(int n){
   int count = 0;
+  if(n == 1)
+    count++;
   for (size_t i = 2; i < (n/2)+1; i++) {
-    if (n%i==0 && n != 1) {
+    if (n%i==0 ) {
       count++;
     }
   }
