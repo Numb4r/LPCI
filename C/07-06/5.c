@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]) {
       letra = toupper(frase[aux]);
       if (letra != 'A' && letra != 'E' && letra != 'I' && letra != 'O' && letra != 'U' && letra != '\0') {
         //printf("%c",frase[aux]);
-        printf("#" );
+        printf("#" );//Arrumar impressao de numero no final
       }else{
         printf("%c",frase[aux] );
       }
