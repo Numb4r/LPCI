@@ -7,7 +7,7 @@ int main(int argc, char const *argv[]) {
     char frase[30],letra;
     fflush(stdin);
     fgets(frase,sizeof(frase),stdin);
-    int aux = strlen(frase);
+    int aux = strlen(frase) - 2;
     printf("%d\n",aux );
     while (aux > -1) {
       letra = toupper(frase[aux]);
