@@ -4,9 +4,12 @@
 #include <string.h>
 int main(int argc, char const *argv[]) {
   char frases[5][50],nomeArquivo[30],c;
+  printf("Nome do arquivo> " );
   fgets(nomeArquivo,sizeof(nomeArquivo),stdin);
   int j = 0;
+
   for (size_t i = 0; i < 5; i++) {
+    printf("%zu frase >",i );
     scanf("%s",frases[i] );
   }
   FILE *fp = fopen(nomeArquivo,"w");
@@ -30,7 +33,8 @@ int main(int argc, char const *argv[]) {
     fscanf(fp,"%d",&aux);
     //c=fgetc(fp);
     while (aux>-1) {
-      printf("%c",c=fgetc(fp) );
+      if((c = fgetc(fp)) != ' ')
+        printf("%c",c );
       aux--;
     }
     printf("\n");
