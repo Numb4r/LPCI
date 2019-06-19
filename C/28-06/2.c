@@ -3,7 +3,6 @@
 #include <string.h>
 #define QNTALUNOS 12
 #define QNTQUESTOES 8
-//NAO TO AFIM DE TRABALHAR COM STRING
 void debug_Vetor(int TAM,char vet[]) {
   for (size_t i = 0; i < TAM; i++) {
     printf("%zu - > %c\n",i,vet[i] );
@@ -53,6 +52,7 @@ int main(int argc, char const *argv[]) {
     }
   }
   printf("A quantidade de aprovados e %d\n",aprovados );
-
+  free(gabarito);
+  free(questoesAlunos);
   return 0;
 }
