@@ -83,10 +83,8 @@ void menu_grafico(){
   printf("\t\tSistema de Venda de Passagens Rodoviarias \n");
   printf("\t****************************************************\n\n\n" );
   printf("\t1. Venda de Passagens \n");
-//  printf("\t2. Para quantidade poltronas livres \n");
-  printf("\t2. Quantidade poltronas livres \n");
-  //printf("\t3. Para mapa de ocupacao do onibus\n");
-  printf("\t3. Mapa de ocupacao do onibus\n");
+  printf("\t2. Para quantidade poltronas livres \n");
+  printf("\t3. Para mapa de ocupacao do onibus\n");
   printf("\t0. SAIR \n\n");
   printf("\n=====================================================================\n");
   printf(">");

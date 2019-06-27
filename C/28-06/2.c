@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]) {
       printf("Numero de questoes invalida,entre com o numero de questoes correta: " );
     }
   } while(strlen(gabarito) != QNTQUESTOES);
-  debug_Vetor(strlen(gabarito),gabarito);
+  //debug_Vetor(strlen(gabarito),gabarito);
   while(i < QNTALUNOS){
     notas[i] = 0;
     printf("Entre com a matricula do aluno: " );
@@ -37,7 +37,7 @@ int main(int argc, char const *argv[]) {
     } while(strlen(questoesAlunos)!=QNTQUESTOES);
 
     for (size_t j = 0; j < QNTQUESTOES; j++) {
-      printf("%c-%c\n",gabarito[j],questoesAlunos[j] );
+      //printf("%c-%c\n",gabarito[j],questoesAlunos[j] );
       if (gabarito[j] == questoesAlunos[j]) {
         notas[i]++;
       }
