@@ -1,0 +1,12 @@
+1.Ponteiros é um tipo de dado que armazenam endereço de memoria.
+2.Constantes e variáveis.
+3.
+O operador * serve para criar um ponteiro(ex: int *op;) e amazenar valores na variavel que o ponteiro aponta(ex: *op = 13;)
+O operador & serve para conseguir o endereço de memoria(ex: int i,*op = &i;)
+4.
+*Soma
+*Subtração
+*Operações  lógicas
+*Operador de referência ou indireto
+*Operador de endereço
+5.A chamada de um variavel por uma função pelo valor não altera o conteudo da mesma.Já com a chamada por referência,toda operação executada surtirá efeito
