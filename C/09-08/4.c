@@ -25,7 +25,7 @@ void Leitura(Pessoa pessoa[],int nPessoa) {
 float media_olhos_cabelo(Pessoa pessoa[],int nPessoa){
   float qntCabelo = 0,somaIdade = 0;
   for (size_t i = 0; i < nPessoa; i++) {
-    if (pessoa[i].cor_olhos == 'C' || pessoa[i].cor_cabelo == 'P') {
+    if (pessoa[i].cor_olhos == 'C' && pessoa[i].cor_cabelo == 'P') {
       qntCabelo++;
       somaIdade+=pessoa[i].idade;
     }
