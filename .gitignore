@@ -3,3 +3,4 @@ EXEC
 a.out
 *.doc
 *.txt
+*.o
