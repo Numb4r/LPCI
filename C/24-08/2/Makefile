@@ -29,7 +29,7 @@ build:
 debug : CXXFLAGS += -DDEBUG -g
 debug: all
 
-release: CXXFLAGS += -03
+release: CXXFLAGS += -O3
 release: all
 
 clean:
@@ -37,4 +37,4 @@ clean:
 	-@rm -rvf $(APP_DIR)/*
 
 run:
-		./$(BUILD)/$(TARGET)
+		$(BUILD)/$(TARGET)
