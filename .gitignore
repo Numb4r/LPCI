@@ -1,5 +1,5 @@
 EXEC
 *.zip
 a.out
-.doc
-.txt
+*.doc
+*.txt
